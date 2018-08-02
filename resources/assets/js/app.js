@@ -6,8 +6,9 @@
  */
 
 require('./bootstrap');
-
 window.Vue = require('vue');
+require('./components/SelectDistrict');
+require('./components/UserAddressesCreateAndEdit');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
