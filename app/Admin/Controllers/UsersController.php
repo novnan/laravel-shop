@@ -23,10 +23,7 @@ class UsersController extends Controller
     public function index()
     {
         return Admin::content(function (Content $content) {
-
             $content->header('用户列表');
-            $content->description('description');
-
             $content->body($this->grid());
         });
     }
